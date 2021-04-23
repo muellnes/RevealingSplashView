@@ -1,4 +1,4 @@
-// swift-tools-version:4.2
+// swift-tools-version:5.3
 import PackageDescription
 
 let package = Package(
@@ -9,8 +9,8 @@ let package = Package(
   dependencies: [
   ],
   targets: [
-    .target(name: "RevealingSplashView", dependencies: [], path: "Sources"),
+    .target(name: "RevealingSplashView", dependencies: [], path: "./RevealingSplashView"),
     .testTarget(name: "RevealingSplashViewTests", dependencies: ["RevealingSplashView"])
   ],
-  swiftLanguageVersions: [.v4_2]
+  swiftLanguageVersions: [.v5_0]
 )
