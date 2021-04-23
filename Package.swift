@@ -11,6 +11,5 @@ let package = Package(
   targets: [
     .target(name: "RevealingSplashView", dependencies: [], path: "./RevealingSplashView"),
     .testTarget(name: "RevealingSplashViewTests", dependencies: ["RevealingSplashView"])
-  ],
-  swiftLanguageVersions: [.v5_0]
+  ]
 )
